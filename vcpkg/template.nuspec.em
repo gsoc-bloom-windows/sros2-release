@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-sros2-cmake</id>
-    <version>0.7.1</version>
-    <title>ros-dashing-sros2-cmake</title>
-    <authors>AWS B9 Team <aws-b9-platform@amazon.com></authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Cmake macros to configure security for nodes</description>
-<dependencies>
-      <dependency id="ros-dashing-ros2cli"/>
-      <dependency id="ros-dashing-sros2"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <description>@(Description)</description>
+    <dependencies>
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
