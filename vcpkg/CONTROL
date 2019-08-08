@@ -1,4 +1,0 @@
-Source: ros-dashing-sros2
-Version: 0.7.1
-Description: Command line tools for managing SROS2 keys
-Build-Depends:
